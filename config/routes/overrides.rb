@@ -86,6 +86,7 @@ Foreman::Application.routes.draw do
 
           resources :packages, :only => [:index], :controller => :host_packages do
             get :auto_complete_search, :on => :collection
+            get :installed_packages, :on => :collection
 
             collection do
               put :remove
