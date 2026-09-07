@@ -186,6 +186,8 @@ const ManifestDetails = () => {
               </TextContent>
             </GridItem>
 
+            <GridItem span={12} />
+
             <GridItem span={12}>
               <ExpandableSection
                 toggleText={__('Content views, lifecycle environments, pullable paths')}
